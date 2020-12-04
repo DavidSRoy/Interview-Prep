@@ -1,11 +1,11 @@
 package Sorting;
 
-public class SelectionSort {
+public class SelectionSort extends Algorithm {
     public static void main(String args[]) {
         int[] array = {5, 2 , 2, 3 ,121, 4322 ,0, -1 , -2 , -100};
-        System.out.print(array);
+        printArray(array); 
         selectionSort(array);
-        //printArray(array); 
+        printArray(array); 
     }
 
     private static void selectionSort(int[] array) {
@@ -29,14 +29,9 @@ public class SelectionSort {
         }
     }
 
-    /*
-    private static void printArray(int[] array) {
-        for (int i: array) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
-    }
-    */
+    
+
+    
 
 
     /*
